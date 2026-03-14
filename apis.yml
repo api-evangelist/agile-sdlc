@@ -1,0 +1,16 @@
+name: Agile SDLC
+description: Agile Software Development Life Cycle is an iterative and incremental
+  approach to software development that emphasizes flexibility, collaboration, and
+  rapid delivery of working software through short development cycles called sprints.
+  It is widely used by developers to build, maintain, and scale software applications
+  efficiently.
+url: https://agilemanifesto.org/
+tags:
+- Software Development
+- Project Management
+- Methodology
+- Iterative Development
+created: '2025'
+modified: '2025'
+apis: []
+common: []
