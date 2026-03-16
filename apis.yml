@@ -1,16 +1,23 @@
+aid: agile-sdlc
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/agile-sdlc/refs/heads/main/apis.yml
 name: Agile SDLC
-description: Agile Software Development Life Cycle is an iterative and incremental
-  approach to software development that emphasizes flexibility, collaboration, and
-  rapid delivery of working software through short development cycles called sprints.
-  It is widely used by developers to build, maintain, and scale software applications
-  efficiently.
-url: https://agilemanifesto.org/
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Software Development
-- Project Management
-- Methodology
-- Iterative Development
-created: '2025'
-modified: '2025'
+  - Software Development
+  - Project Management
+  - Methodology
+  - Iterative Development
+description: >-
+  Agile Software Development Life Cycle is an iterative and incremental
+  approach to software development that emphasizes flexibility, collaboration,
+  and rapid delivery of working software through short development cycles
+  called sprints.
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
