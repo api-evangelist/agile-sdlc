@@ -5,10 +5,10 @@ name: Agile SDLC
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Software Development
-  - Project Management
-  - Methodology
   - Iterative Development
+  - Methodology
+  - Project Management
+  - Software Development
 description: >-
   Agile Software Development Life Cycle is an iterative and incremental
   approach to software development that emphasizes flexibility, collaboration,
