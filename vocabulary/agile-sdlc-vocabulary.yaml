@@ -1,0 +1,40 @@
+vocabulary: "1.0.0"
+info:
+  provider: Agile SDLC
+  description: Vocabulary for the Agile Software Development Life Cycle covering iterative planning, development, testing, and deployment phases.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  resources:
+    - name: sdlc-phases
+      description: Phases of the agile SDLC from planning through maintenance
+      actions: [transition, track, report]
+    - name: ci-pipelines
+      description: Continuous integration and delivery pipelines in agile SDLC
+      actions: [trigger, monitor, report]
+    - name: test-suites
+      description: Automated test suites run within agile SDLC
+      actions: [run, report, analyze]
+  schemas:
+    core:
+      - name: SDLCPhase
+        description: A phase in the agile software development lifecycle
+        properties: [name, description, sprint_id, start_date, end_date, artifacts]
+  enums:
+    phases: [planning, design, development, testing, deployment, maintenance]
+capability:
+  workflows:
+    - name: Agile Sprint SDLC Execution
+      description: Execute a full SDLC cycle within an agile sprint from planning through deployment
+      personas: [Scrum Master, Developer, QA Engineer]
+      domains: [Agile SDLC]
+  personas:
+    - id: qa-engineer
+      name: QA Engineer
+      description: Validates working software within agile SDLC test phases
+    - id: developer
+      name: Developer
+      description: Implements features through agile SDLC development phases
+  domains:
+    - name: Agile SDLC
+      description: Iterative software development lifecycle with sprint-driven phases

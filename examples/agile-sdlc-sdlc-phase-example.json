@@ -1,0 +1,12 @@
+{
+  "name": "development",
+  "description": "Iterative development of features within sprint cycles.",
+  "sprint_id": "sprint-42",
+  "start_date": "2026-04-14",
+  "end_date": "2026-04-28",
+  "artifacts": [
+    "working code",
+    "unit tests",
+    "code review"
+  ]
+}

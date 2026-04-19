@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/agile-sdlc/refs/heads/main/json-schema/agile-sdlc-sdlc-phase-schema.json",
+  "title": "SDLCPhase",
+  "description": "A phase in the Agile Software Development Life Cycle representing a stage of development from planning through deployment.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the SDLC phase.",
+      "enum": [
+        "planning",
+        "design",
+        "development",
+        "testing",
+        "deployment",
+        "maintenance"
+      ],
+      "example": "development"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of activities performed in this phase.",
+      "example": "Iterative development of features within sprint cycles."
+    },
+    "sprint_id": {
+      "type": "string",
+      "description": "The sprint this phase belongs to.",
+      "example": "sprint-42"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Phase start date.",
+      "example": "2026-04-14"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Phase end date.",
+      "example": "2026-04-28"
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of artifacts produced in this phase.",
+      "example": [
+        "working code",
+        "unit tests",
+        "code review"
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "sprint_id"
+  ]
+}
