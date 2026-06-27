@@ -58,7 +58,7 @@ common:
     description: Browser automation framework used for end-to-end testing in agile SDLC pipelines.
   - name: LaunchDarkly
     description: Feature flag management platform enabling safe, controlled feature releases in agile SDLC workflows.
-- type: LLMsTxt
+- type: LlmsText
   url: https://agilealliance.org/llms.txt
 maintainers:
 - FN: Kin Lane
