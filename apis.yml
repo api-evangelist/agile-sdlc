@@ -20,6 +20,8 @@ modified: '2026-04-19'
 specificationVersion: '0.19'
 apis: []
 common:
+- type: DomainSecurity
+  url: security/agile-sdlc-domain-security.yml
 - type: Portal
   url: https://agilealliance.org/
 - type: GitHubOrganization
@@ -60,6 +62,8 @@ common:
     description: Feature flag management platform enabling safe, controlled feature releases in agile SDLC workflows.
 - type: LlmsText
   url: https://agilealliance.org/llms.txt
+- type: Blog
+  url: https://agilealliance.org/feed/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
