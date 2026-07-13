@@ -1,0 +1,21 @@
+{
+  "repo": "agile-sdlc",
+  "feeds": [
+    {
+      "source": "https://agilealliance.org/feed/",
+      "feed_url": "https://agilealliance.org/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://agilealliance.org/llms.txt",
+      "feed_url": "https://agilealliance.org/llms.txt",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 12
+}
